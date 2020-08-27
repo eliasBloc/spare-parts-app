@@ -1,0 +1,58 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #a8a8a8;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+h1 {
+  flex: 0 55%;
+  margin: 2vh auto;
+  text-align: center;
+  border: 1px dashed #000000;
+}
+
+div.app {
+  text-align: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+footer {
+  text-align: right;
+  flex: 0 100%;
+}
+
+input {
+  background-color: rgb(239, 239, 239);
+}
+
+nav {
+  flex: 0 35%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: .25vh;
+  border: 1px dashed #000000;
+  
+}
+
+p {
+  border: 1px dashed #000000;
+  flex: 0 45%;
+  padding: 1vh;
+}
+
+footer {
+  border: 1px dashed #000000;
+}
+
+.hidden {
+  display: none;
+}
